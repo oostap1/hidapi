@@ -13,8 +13,7 @@ include_directories(
 
 
 set(SOURCE_FILES
-        #linux/hid.c
-        linux/hid-libusb.c
+        libusb/hid.c
         hidapi/hidapi.h
 )
 
